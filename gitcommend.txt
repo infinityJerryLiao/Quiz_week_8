@@ -11,4 +11,9 @@ $ git diff
 $ git status
 $ git commit -m "update climate_q1.py and one png file"
 $ git push origin main
+$ git add .
+$ git diff
+$ git status
+$ git commit -m "update climate_q2"
+$ git push origin main
 
