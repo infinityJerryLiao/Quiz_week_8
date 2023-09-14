@@ -1,0 +1,10 @@
+$ cd /d
+$ cd AAAAAAAAcourse/
+$ cd T2
+$ cd soft-tech/
+$ cd A1
+$ git clone https://github.com/infinityJerryLiao/Quiz_week_8.git
+$ clear
+$ cd  Quiz_week_8/
+
+
