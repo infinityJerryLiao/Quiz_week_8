@@ -1,9 +1,17 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
+climate_data = pd.read_csv('./climate.csv')
+
 years = []
 co2 = []
 temp = []
+
+for index, row in climate_data.iterrows():
+    years.append(row["Year"])
+    co2.append(row["CO2"])
+    temp.append(row["Temperature"])
+
 
 plt.subplot(2, 1, 1)
 plt.plot(years, co2, 'b--') 

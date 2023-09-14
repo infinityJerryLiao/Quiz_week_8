@@ -6,5 +6,9 @@ $ cd A1
 $ git clone https://github.com/infinityJerryLiao/Quiz_week_8.git
 $ clear
 $ cd  Quiz_week_8/
-
+$ git add .
+$ git diff
+$ git status
+$ git commit -m "update climate_q1.py and one png file"
+$ git push origin main
 
